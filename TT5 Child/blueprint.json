@@ -1,31 +1,35 @@
 {
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-	"meta": {
-		"title": "TT5 Child",
-		"description": "Test WordPress Blueprint",
-		"author": "Jonas"
-		
-	},
+
   "steps": [
+	{
+			"step": "resetData"
+		},
+	  {
+			"step": "updateUserMeta",
+			"meta": {
+				"first_name": "Rich",
+				"last_name": "Tabor",
+				"admin_color": "modern"
+			},
+			"userId": 1
+		},
     {
       "step": "installTheme",
       "themeData": {
         "resource": "wordpress.org/themes",
-        "slug": "twentytwentyfive"
-      },
-      "options": {
-        "activate": true
-      }
-    },
-    {
-      "step": "installTheme",
-      "themeData": {
-        "resource": "wordpress.org/themes",
-        "url": "twentytwentyfour"
+        "slug": "twentytwentyfour"
       },
       "options": {
         "activate": true
       }
     }
-  ]
+  ],
+	"siteOptions": {
+		"blogname": "Jonas Zander",
+		"blogdescription": "Test von Blueprint",
+		"show_on_front": "page"		
+	},
+	"plugins": ["todo-list-block", "markdown-comment-block"]
+
 }
