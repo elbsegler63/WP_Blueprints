@@ -4,33 +4,10 @@
       "step": "installTheme",
       "themeData": {
         "resource": "wordpress.org/themes",
-        "slug": "twentytwentyfour"
-      },
-      "options": {
-        "activate": true
-      }
-    },
-    {
-      "step": "installTheme",
-      "themeData": {
-        "resource": "wordpress.org/themes",
         "slug": "twentytwentythree"
       },
       "options": {
         "activate": true
-      }
-    },
-    {
-      "step": "setSiteOptions",
-      "options": {
-        "blogname": "Step Library Demo",
-        "blogdescription": "Trying out WordPress Playground."
-      }
-    },
-    {
-      "step": "setSiteOptions",
-      "options": {
-        "permalink_structure": "/%postname%/"
       }
     }
   ]
