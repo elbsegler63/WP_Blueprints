@@ -20,8 +20,8 @@
     {
       "step": "installTheme",
       "themeData": {
-        "resource": "url",
-        "url": "https://github.com/elbsegler63/TT5-Child/archive/refs/heads/main.zip"
+        "resource": "wordpress.org/themes",
+        "url": "twentytwentyfour"
       },
       "options": {
         "activate": true
