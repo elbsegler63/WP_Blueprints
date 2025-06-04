@@ -1,19 +1,5 @@
 {
-  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-
   "steps": [
-	{
-			"step": "resetData"
-		},
-	  {
-			"step": "updateUserMeta",
-			"meta": {
-				"first_name": "Rich",
-				"last_name": "Tabor",
-				"admin_color": "modern"
-			},
-			"userId": 1
-		},
     {
       "step": "installTheme",
       "themeData": {
@@ -23,13 +9,29 @@
       "options": {
         "activate": true
       }
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "wordpress.org/themes",
+        "slug": "twentytwentythree"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "Step Library Demo",
+        "blogdescription": "Trying out WordPress Playground."
+      }
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "permalink_structure": "/%postname%/"
+      }
     }
-  ],
-	"siteOptions": {
-		"blogname": "Jonas Zander",
-		"blogdescription": "Test von Blueprint",
-		"show_on_front": "page"		
-	},
-	"plugins": ["todo-list-block", "markdown-comment-block"]
-
+  ]
 }
