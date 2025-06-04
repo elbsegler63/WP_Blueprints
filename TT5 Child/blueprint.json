@@ -1,0 +1,31 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "TT5 Child",
+		"description": "Test WordPress Blueprint",
+		"author": "Jonas"
+		
+	},
+  "steps": [
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "wordpress.org/themes",
+        "slug": "twentytwentyfive"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "url",
+        "url": "https://github-proxy.com/proxy/?repo=elbsegler63/TT4-Child&branch=main"
+      },
+      "options": {
+        "activate": true
+      }
+    }
+  ]
+}
