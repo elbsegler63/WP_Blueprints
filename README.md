@@ -8,12 +8,12 @@ Ich verwende hier (zunächst) folgende Link-Struktur:
 
 https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent/**github_name**/**repository**/main/**folder**/blueprint.json
 
-In der Auszeichnungssprache Markdown [text](https://example.com){:target="_blank"}
+In der Auszeichnungssprache Markdown [text](https://example.com)
 
 ## Mein erster Versuch
 Es soll das **Theme Twenty Twenty Four** installiert werden.
 
-Das ist der Link [Mein erster Versuch](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/elbsegler63/WP_Blueprints/main/01_TT4/blueprint.json target="_blank")
+Das ist der Link [Mein erster Versuch](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/elbsegler63/WP_Blueprints/main/01_TT4/blueprint.json)
 
 ## TT5 und Child-Theme
 https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fraw.githubusercontent.com%2Felbsegler63%2FWP_Blueprints%2Fmain%2FTT5+Child%2Fblueprint.json
