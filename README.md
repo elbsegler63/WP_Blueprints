@@ -16,5 +16,7 @@ Es soll das **Theme Twenty Twenty Four** installiert werden.
 Das ist der Link [Mein erster Versuch](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/elbsegler63/WP_Blueprints/main/01_TT4/blueprint.json)
 
 ## TT5 und Child-Theme
-https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fraw.githubusercontent.com%2Felbsegler63%2FWP_Blueprints%2Fmain%2FTT5+Child%2Fblueprint.json
+Hie wird Das Theme Twenty Twenty Five gemeinsam mit einem Child-Theme installiert. Zusätzlich das Plugin "Create Block Theme".
+
+[TT5+Child](https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fraw.githubusercontent.com%2Felbsegler63%2FWP_Blueprints%2Fmain%2FTT5+Child%2Fblueprint.json)
 
