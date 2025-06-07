@@ -14,7 +14,7 @@
       "step": "installTheme",
       "themeData": {
         "resource": "url",
-        "url": "https://github.com/elbsegler63/TT5-Child/blob/94303d861a9b941dd71803edb239c4ce95221a01/child-of-tt5.zip"
+        "url": "https://github.com/elbsegler63/TT5-Child/blob/b66b9c8117bdc036774b675d07e15f18b9ffe5ea/child-of-tt5.zip"
       },
       "options": {
         "activate": true
